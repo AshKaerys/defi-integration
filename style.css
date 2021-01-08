@@ -1,3 +1,122 @@
 body{
 font-family: 'Roboto', sans-serif;
+display: flex;
+flex-direction: column;
+padding-right: 15%;
+padding-left: 15%;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav li a{
+  text-decoration: none;
+  padding-left: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+}
+
+.banniere{
+  position: relative;
+  padding: 0px;
+}
+
+.imgbanniere{
+  width: 100%;
+}
+
+.logo{
+position: absolute;
+top: 35%;
+left: 42%;
+width: 15%;
+}
+
+.banniere h1{
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  color: white;
+  font-weight: bold;
+  font-size: 2.2em;
+}
+
+section {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 2% 25% 2% 25%;
+}
+
+.tableau{
+  display: flex;
+  font-size: 0.5em;
+}
+
+.tableau p{
+  margin-right: 5%;
+}
+
+.tableau h2{
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.nom{
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #582C9F;
+  padding-top: 20px;
+}
+
+footer p{
+color: white;
+font-weight: bold;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-right: 40%;
+  padding-left: 40%;
+}
+
+.social i{
+  color: #BBACD9;
+  font-size: 1.5em;
+}
+
+.footer li, a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer ul{
+  text-align: left;
+}
+
+.footer p{
+  text-align: left;
 }
