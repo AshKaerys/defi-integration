@@ -9,7 +9,6 @@ padding-left: 15%;
 nav{
   display: flex;
   justify-content: space-between;
-  padding: 0px;
 }
 
 nav ul{
@@ -78,27 +77,26 @@ section {
 }
 
 footer{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
   background-color: #582C9F;
   padding-top: 20px;
 }
 
 footer p{
+text-align: center;
 color: white;
 font-weight: bold;
 }
 
 .social{
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   padding-right: 40%;
   padding-left: 40%;
 }
 
 .social i{
+  display: flex;
+  justify-content: center;
   color: #BBACD9;
   font-size: 1.5em;
 }
@@ -119,4 +117,8 @@ font-weight: bold;
 
 .footer p{
   text-align: left;
+}
+
+.footer h3{
+  color: grey;
 }
